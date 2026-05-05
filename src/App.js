@@ -4,6 +4,7 @@ import MainDashboard from './MainDashboard';
 import DownloadsPage from './DownloadsPage';
 import MySubmissionsPage from './MySubmissionsPage';
 import UploadValidationPage from './UploadValidationPage';
+import WizardPage from './WizardPage';
 import './App.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Link to="/downloads" className="nav-link">Downloads</Link>
             <Link to="/submissions" className="nav-link">My Submissions</Link>
             <Link to="/upload" className="nav-link">Upload Validation</Link>
+            <Link to="/wizard" className="nav-link">Wizard</Link>
           </div>
         </nav>
         
@@ -32,6 +34,7 @@ function App() {
             <Route path="/downloads" element={<DownloadsPage />} />
             <Route path="/submissions" element={<MySubmissionsPage />} />
             <Route path="/upload" element={<UploadValidationPage />} />
+            <Route path="/wizard" element={<WizardPage />} />
           </Routes>
         </main>
       </div>
