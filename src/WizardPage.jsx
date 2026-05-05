@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
 
 const C = {
   pageBg: '#F5F6FA',
@@ -611,14 +611,6 @@ function secondaryBtn() {
   };
 }
 
-function ghostBtn() {
-  return {
-    background: 'transparent', color: C.blue600, border: 'none',
-    height: 28, padding: '0 10px', borderRadius: 6,
-    fontFamily: FONT, fontSize: 12, fontWeight: 600, cursor: 'pointer',
-    display: 'inline-flex', alignItems: 'center',
-  };
-}
 
 function disabledBtn() {
   return {
