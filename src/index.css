@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "'DM Sans', system-ui, -apple-system, sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F6FA;
+}
+
+code {
+  font-family: "'JetBrains Mono', 'Consolas', monospace";
+}
+
+#root {
+  min-height: 100vh;
+}

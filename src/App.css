@@ -1,0 +1,89 @@
+.app {
+  min-height: 100vh;
+  background-color: #F5F6FA;
+  font-family: "'DM Sans', system-ui, -apple-system, sans-serif";
+  color: #0A2342;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  height: 56px;
+  background: #0A2342;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-shrink: 0;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #1D4ED8, #06B6D4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3;
+}
+
+.nav-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #FFF;
+  line-height: 1.15;
+}
+
+.nav-subtitle {
+  font-size: 11px;
+  color: #64748B;
+  line-height: 1.15;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #CBD5E1;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 120ms ease;
+}
+
+.nav-link:hover {
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
